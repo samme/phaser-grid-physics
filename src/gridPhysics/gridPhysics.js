@@ -14,7 +14,7 @@ class GridPhysics extends Phaser.Plugin {
         this.cnt = 0;
 
         // Size of Grid in pixels
-        this.gridSize = new Phaser.Point(8);
+        this.gridSize = new Phaser.Point(8, 8);
 
         // Shadow size in pixels.
         this.shadowSize = 0;
